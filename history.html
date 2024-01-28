@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Book</title>
+    <link rel="stylesheet" href="history.css">
+</head>
+<body>        
+     <nav>
+        <div class="system_word">Student Management System</div>
+     </nav>
+    <div class="foram">
+      <form id="registrationForm">
+        <input class="inpts" placeholder="what's your good name..?" type="text" id="name" required>
+        <input class="inpts" placeholder="what's your Class..?" type="text" id="clas" required>
+        <input class="inpts" placeholder="what's your Section..?" type="text" id="sec" required>
+        <input class="inpts" placeholder="what book You Have Take..?" type="text" id="books" required>
+
+        <button class="inpts" type="submit" id="submitBtn">Submit</button>
+     </form>
+    </div>
+
+     <table class="tbl">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Section</th>
+                <th>Books</th>
+            </tr>
+        </thead>
+        <tbody class="tablecontent">
+            <!-- Table content will be added dynamically -->
+        </tbody>
+     </table>
+
+     <!-- <a href="history.html"><button class="allhistory">All of your registration</button></a> -->
+     <script src="history.js"></script>
+</body>
+</html>

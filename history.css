@@ -1,0 +1,44 @@
+body{
+    background-color: purple;
+}
+.system_word{
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-align: center;
+}
+
+.foram{
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding:  25px 100px;
+    margin: auto;
+}
+
+.inpts{
+    margin-top: 10px;
+    background-color: purple;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    padding: 3px 3px;
+    border-radius: 10px;
+}
+
+.tbl{
+    display: table;
+    margin: auto;
+    margin-top: 25px;
+    width:  40%;
+    color: white;
+    font-size: large;
+    border: 2px solid white;
+}
